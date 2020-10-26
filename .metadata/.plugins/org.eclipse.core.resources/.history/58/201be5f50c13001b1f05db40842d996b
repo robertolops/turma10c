@@ -1,0 +1,31 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioFor {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * 1º) Crie um programa que pergunte ao usuário o seu nível de 
+		 * escolaridade (Médio, Superior ou Pós) enquanto a resposta for 
+		 * válida, irá computando os totais dos níveis digitados, no final 
+		 * apresente somente o nível que foi mais votado.
+		 */
+		  
+	
+
+		String escolaridade = (JOptionPane.showInputDialog("Qual a sua escolaridade, Médio, Superior ou Pós?"));
+		for (int contador = 1; contador < 11; contador++) {
+			System.out.println(tabuada + " x " + contador + " = " + (tabuada * contador));
+			
+		}
+
+	}
+
+}
+* 2º) Monte um programa que solicite a idade e o nome das pessoas. 
+* Ao terminar, o programa deverá exibir a pessoa mais velha, a pessoa 
+* mais nova, a quantidade de pessoas maiores de idade e a média entre 
+* as idades que foram digitadas.
+*/

@@ -1,0 +1,45 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDoEtapa3 {
+
+	public static void main(String[] args) {
+		/*
+		 * Um jogo de adivinhação
+		 * o jogador 1 digita u numero inteiro
+		 * o jogador 2 tem que adivinhar o numero que foi digitado pelo jogador 1
+		 * enquanto ele nao acertar o jogo continua perguntando o numero
+		 * 
+		 * etapa 2
+		 * acrescente uma contagem de tentativas do jogador 2, e apresente
+		 * quantas tentativas ele usou para acertar o numero
+		 * 
+		 * etapa3
+		 * acrescente dicas para o jogador 2, indicando se o numero
+		 * que ele esta tentando adivinhar é maior ou menor do que o que ele chutou
+		 */
+
+		int numero = Integer.parseInt(JOptionPane.showInputDialog("digite um numero inteiro"));
+		int adivinha = Integer.parseInt(JOptionPane.showInputDialog("tente adivinhar qual o numero digitado"));
+		int tentativas = 1;
+		if (numero == adivinha) {
+			JOptionPane.showMessageDialog(null, "você adivinhou o numero, o número é " + adivinha + " e o numero de tentativas foi " + tentativas);
+		} else {
+			do {
+				adivinha = Integer.parseInt(JOptionPane.showInputDialog("você errou, esta é sua tentativa # " + tentativas + ", tente novamente"));
+				tentativas = tentativas+1;
+				if (adivinha == numero) {	
+					JOptionPane.showMessageDialog(null, "você adivinhou o numero, o número é " + adivinha + " e o numero de tentativas foi " + tentativas);
+				} else if (adivinha > numero){
+					JOptionPane.showMessageDialog(null, "o numero é menor");
+				}else {
+					JOptionPane.showMessageDialog(null, "o numero é maior");
+				}
+			}
+			while (numero != adivinha);
+			JOptionPane.showMessageDialog(null, "você adivinhou o numero, o número é " + adivinha + " e o numero de tentativas foi " + tentativas);		
+		}
+	}	
+
+}

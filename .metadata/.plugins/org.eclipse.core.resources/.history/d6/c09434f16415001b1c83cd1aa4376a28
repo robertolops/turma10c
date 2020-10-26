@@ -1,0 +1,43 @@
+package br.com.unixyz.modelo;
+
+import br.com.unixyz.padroes.PadraoFormacao;
+
+public class Tecnologo implements PadraoFormacao {
+	private boolean planoExtendido;
+	
+	
+	//calcMensalidade
+	public void calcMensalidade(double fator) {
+		super.setMensalidade(super.getMensalidade()*(float)fator*600);
+		}
+	
+	public String getAll() {
+		return
+				super.getAll() + "\n" +
+				"Plano Extendido.......: " + planoExtendido;
+	}
+	
+	public void setAll(String descricao, int duracao, float mensalidade, boolean planoExtendido) {
+		super.setAll(descricao, duracao, mensalidade);
+		this.planoExtendido = planoExtendido;
+	}
+	
+	public Tecnologo() {
+		super();
+	}
+
+	public Tecnologo(String descricao, int duracao, float mensalidade, boolean planoExtendido) {
+		super(descricao, duracao, mensalidade);
+		this.planoExtendido = planoExtendido;
+	}
+
+	public boolean isPlanoExtendido() {
+		return planoExtendido;
+	}
+
+	public void setPlanoExtendido(boolean planoExtendido) {
+		this.planoExtendido = planoExtendido;
+	}
+	
+
+}

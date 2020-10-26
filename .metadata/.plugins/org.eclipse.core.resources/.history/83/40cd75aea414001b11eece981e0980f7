@@ -1,0 +1,23 @@
+package br.com.ecommerce.implementacao;
+
+import br.com.ecommerce.beans.Venda;
+import br.com.ecommerce.util.Magica;
+
+public class ImplementaVendasSimples {
+
+	public static void main(String[] args) {
+		Venda venda = new Venda();
+		venda.setNotafiscal(Magica.i("Nota Fiscal"));
+		venda.setTotal(Magica.f("Total Venda"));
+		venda.setDesconto(Magica.f("Desconto"));
+		venda.setData(Magica.s("Data da Venda"));
+		
+		Object endereco;
+		venda.setEndereco(endereco);
+		
+		venda.setCliente(Magica.);
+		
+
+	}
+
+}

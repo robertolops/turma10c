@@ -1,0 +1,45 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioFor2 {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * 2º) Monte um programa que solicite a idade e o 
+		 * nome das pessoas. Ao terminar, (quando o usuário 
+		 * responder "SIM", que ele quer terminar) o programa deverá exibir:
+		 * *** a pessoa mais velha (nome e idade), 
+		 * **** a pessoa mais nova (nome e idade), 
+		 * * a quantidade de pessoas maiores de idade e 
+		 * ** a média entre as idades que foram digitadas.
+		 */
+		 int i = 0;
+		 String n ="";
+		 Short idade = 0;
+		 String interrompe = "N";
+		 
+		 do {
+			 
+			 idade = Short.parseShort(JOptionPane.showInputDialog("Digite a sua idade"));
+			 String nome = (JOptionPane.showInputDialog("Digite o seu nome"));
+			 System.out.println("nome: " + nome + "\n" + "idade: " + idade);
+			 if (i>idade) {
+				 i=i;
+				 n=n;
+			 }else {
+				 i=idade;
+				 n=nome;
+			 }
+			 System.out.println(n);
+			 System.out.println(i);
+			 interrompe = (JOptionPane.showInputDialog("deseja finalizar? <S> ou <N>").toUpperCase());
+		 } while (interrompe.equals("N"));
+		 System.out.println("programa encerrado");
+				
+		}
+
+	}
+
+

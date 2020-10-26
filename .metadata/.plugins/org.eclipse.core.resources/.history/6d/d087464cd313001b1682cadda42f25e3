@@ -1,0 +1,15 @@
+package br.com.casageral.teste;
+
+import br.com.casageral.modelo.Televisao;
+
+public class TesteTelevisao {
+
+	public static void main(String[] args) {
+		Televisao objeto = null;
+		Televisao tv = new Televisao();
+		
+		
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package br.com.casageral.teste;
+
+import javax.swing.JOptionPane;
+
+import br.com.casageral.modelo.Televisao;
+
+public class TesteTelevisao {
+
+	public static void main(String[] args) {
+		Televisao objeto = null;
+		Televisao tv = new Televisao();
+		
+		tv.preencherMarca(JOptionPane.showInputDialog( "Qual a marca da televisão?"));
+		System.out.println(tv.retornarMarca());
+		
+		tv.preencherValor(Float.parseFloat(JOptionPane.showInputDialog("Qual o valor da televisao?")));
+		System.out.println(tv.retornarValor());
+
+	}
+
+}

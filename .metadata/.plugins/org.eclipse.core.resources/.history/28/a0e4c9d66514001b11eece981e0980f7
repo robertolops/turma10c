@@ -1,0 +1,30 @@
+package br.com.unixyz.modelo;
+
+/*
+ * Design Patterns - padrões para escrita, que devem ser utilizados para programação Orientada a Objeto
+ * DTO (Data Transfer Object)
+ * - Todo atributo DEVE ser privado.
+ * - 
+ */
+
+
+public class Aluno {
+	private in rm;
+	private String nome;
+	private String email;
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}//fim da classe

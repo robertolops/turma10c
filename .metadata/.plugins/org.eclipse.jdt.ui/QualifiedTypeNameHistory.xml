@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="br.com.unixyz.modelo.Aluno"/>
+    <fullyQualifiedTypeName name="br.com.unixyz.modelo.endereco"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="br.com.unixyz.modelo.Professor"/>
+    <fullyQualifiedTypeName name="br.com.unixyz.modelo.Magica"/>
+    <fullyQualifiedTypeName name="br.com.ecommerce.beans.Produto"/>
+    <fullyQualifiedTypeName name="br.com.ecommerce.util.Magica"/>
+    <fullyQualifiedTypeName name="br.com.ecommerce.beans.Cliente"/>
+    <fullyQualifiedTypeName name="br.com.unixyz.util.Magica"/>
+    <fullyQualifiedTypeName name="br.com.unixyz.modelo.Medio"/>
+    <fullyQualifiedTypeName name="br.com.unixyz.modelo.Tecnologo"/>
+    <fullyQualifiedTypeName name="br.com.unixyz.modelo.Bacharelado"/>
+    <fullyQualifiedTypeName name="br.com.unixyz.padroes.PadraoFormacao"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,66 @@
+package br.com.unixyz.modelo;
+
+public class Curso {
+	public int id;
+	public String descricao;
+	public float valor;
+	public int cargaHoraria;
+
+	//Construtor cheio e vazio
+	public Curso(int id, String descricao, float valor, int cargaHoraria) {
+		super();
+		this.id = id;
+		this.descricao = descricao;
+		this.valor = valor;
+		this.cargaHoraria = cargaHoraria;
+	}
+	public Curso() {
+		super();
+	}
+
+	//Getters e Setters
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getDescricao() {
+		return descricao;
+	}
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	public float getValor() {
+		return valor;
+	}
+	public void setValor(float valor) {
+		this.valor = valor;
+	}
+	public int getCargaHoraria() {
+		return cargaHoraria;
+	}
+	public void setCargaHoraria(int cargaHoraria) {
+		this.cargaHoraria = cargaHoraria;
+	}
+	
+	
+	//getAll() e setAll()
+	public void setAll(int id, String descricao, float valor, int cargaHoraria) {
+		this.id = id;
+		this.descricao = descricao;
+		this.valor = valor;
+		this.cargaHoraria = cargaHoraria;
+	}
+	public String getAll() {
+		return
+				"id............: " + id + "\n" +
+				"Descrição.....: " + descricao + "\n" +
+				"valor.........: " + valor + "\n" +
+				"Carga Horaria.: " + cargaHoraria;
+	}
+	
+	
+	
+	
+}//final da classe

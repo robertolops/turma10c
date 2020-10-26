@@ -1,0 +1,15 @@
+package br.com.colecoes.implementacao;
+
+public class TesteSet {
+
+	public static void main(String[] args) {
+		Set<String> lista = new HashSet<String>();
+		lista.add("DBA");
+		lista.add("DEV");
+		lista.add("INFRA");
+		lista.add("DBA");
+		System.out.println(lista);
+
+	}
+
+}

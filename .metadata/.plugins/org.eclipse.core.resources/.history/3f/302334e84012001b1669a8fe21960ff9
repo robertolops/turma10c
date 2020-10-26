@@ -1,0 +1,12 @@
+package variaveis;
+
+public class ManipulaString {
+
+	public static void main(String[] args) {
+		String email = "reGina@GaMaacAdemy.com.br";
+		System.out.println("original:" + email);
+		System.out.println("minuscula: " + email;toLowerCase());
+
+	}
+
+}

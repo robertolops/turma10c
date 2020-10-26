@@ -1,0 +1,19 @@
+package br.com.unixyz.implementacao;
+
+import br.com.unixyz.modelo.Magica;
+import br.com.unixyz.modelo.Professor;
+
+public class ImplementarProfessor {
+
+	
+		
+	public static void main(String[] args) {
+		Magica magica = new Magica();
+		Professor professor = new Professor();
+		professor.setId(i("ID")));
+		professor.setNome(s("Nome"));
+		professor.setFormacao(s("Formacao"));
+
+	}
+
+}

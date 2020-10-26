@@ -1,0 +1,24 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioWhile {
+
+	public static void main(String[] args) {
+		/*
+		* Solicitar dia, mes e ano, em variáveis separadas
+		* valide se o ano está entre 1950 e 2002
+		* valide se o mes está entre 1 e 12
+		* valide se o dia está entre 1 e 30 (para alguns meses) ou
+		* entre 1 e 31 para outros meses
+		* No final exibe a data completa
+		*/
+		
+		int dia = Integer.parseInteger(JOptionPane.showInputDialog("dia"));
+		int mes = Integer.parseInteger(JOptionPane.showInputDialog("mes"));
+		int ano = Integer.parseInteger(JOptionPane.showInputDialog("ano"));
+		
+		
+	}
+
+}

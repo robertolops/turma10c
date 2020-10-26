@@ -1,0 +1,6 @@
+#Tue Oct 20 11:56:20 BRT 2020
+expression=in.parseint
+org.eclipse.help.ui.localSearch.master=true
+org.eclipse.sdk.Google.master=true
+org.eclipse.sdk.Eclipse.master=true
+__DEFAULT__=false

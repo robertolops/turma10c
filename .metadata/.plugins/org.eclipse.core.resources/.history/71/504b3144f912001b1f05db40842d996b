@@ -1,0 +1,21 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioWhile {
+
+	public static void main(String[] args) {
+		String email = JOptionPane.showInputDialog("Email").toLowerCase();
+		while (email.indexOf("@")==-1 ) {
+			email = JOptionPane.showInputDialog("Email deve conter @").toLowerCase();
+		}
+		usuario = (email.substring(0,email.indexOf(@))
+		while usuario
+		
+		
+		
+		System.out.println(email);
+		System.out.println("usuário: " + email.substring(0,email.indexOf("@")));
+	}
+
+}

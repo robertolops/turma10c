@@ -1,0 +1,14 @@
+package br.com.casageral.modelo;
+
+public class Televisao {
+	
+	private String marca;
+	private float valor;
+	private boolean status;
+	private int canal;
+	private int volume;
+	
+	// Sintaxe para os metodos 
+	// <modificador> <Tipo do Retorno> <nomeMetodo> (<TipoParam> <nomeParam>) {
+
+}

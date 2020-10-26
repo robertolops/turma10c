@@ -1,0 +1,44 @@
+package br.com.ecommerce.implementacao;
+
+import br.com.ecommerce.beans.Cliente;
+import br.com.ecommerce.beans.Produto;
+import br.com.ecommerce.beans.Venda;
+import br.com.ecommerce.util.Magica;
+
+public class ImplementaVendasSimples {
+
+	public static void main(String[] args) {
+		Venda venda = new Venda();
+		Produto produto = new Produto();
+		Cliente cliente = new Cliente();
+		venda.setNotafiscal(Magica.i("Nota Fiscal"));
+		venda.setTotal(Magica.f("Total Venda"));
+		venda.setDesconto(Magica.f("Desconto"));
+		venda.setData(Magica.s("Data da Venda"));
+		
+		
+		venda.setCliente(cliente);
+		
+		cliente.setId(Magica.i("ID do Cliente"));
+		cliente.setNome(Magica.s("Nome do Cliente"));
+		cliente.setFone(Magica.s("Telefone do Cliente"));
+		
+		venda.setEndereco(endereco);
+		
+		cliente.setEndereco(Magica.s("Endereço do Cliente"));
+		
+		
+		venda.setProduto(produto);
+		
+		produto.setId(Magica.i("ID do Produto"));
+		produto.setDescricao(Magica.s("Descrição do Produto"));
+		produto.setValorVenda(Magica.f("Valor de Venda do Produto"));
+		produto.setValorCompra(Magica.f("Valor de Compra do Produto"));
+		produto.setQtde(Magica.i("Quantidade"));
+		
+		
+		
+
+	}
+
+}

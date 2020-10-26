@@ -1,0 +1,28 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoSimples {
+
+	public static void main(String[] args) {
+		String nome = JOptionPane.showInputDialog("Digite o nome do aluno:");
+		float nota1 = Float.parseFloat(JOptionPane.showInputDialog("Digite a nota 1:"));
+		float nota2 = Float.parseFloat(JOptionPane.showInputDialog("Digite a nota 2:"));
+		float media = (nota1 + nota2) / 2;
+		if (media >= 6) {
+			System.out.printf("O aluno %s, foi aprovado com uma uma média de %.2f.\n", nome, media);
+		}	
+		if (media < 4) {
+			System.out.printf("O aluno %s, foi reprovado com uma uma média de %.2f.\n", nome, media);
+		}
+		if (media >=4 .and. <6) {
+			System.out.printf("O aluno %s, está em recuperação com uma uma média de %.2f.\n", nome, media);
+		}
+		
+		
+		
+		
+		
+	}
+
+}

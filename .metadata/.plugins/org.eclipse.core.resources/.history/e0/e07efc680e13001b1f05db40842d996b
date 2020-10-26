@@ -1,0 +1,28 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioFor {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * 1º) Crie um programa que pergunte ao usuário 
+		 * o seu nível de escolaridade (Médio, Superior ou Pós) 
+		 * enquanto a resposta for válida, irá computando os totais 
+		 * dos níveis digitados, no final apresente somente o nível 
+		 * que foi mais votado
+		  */
+		
+	
+
+		String escolaridade = (JOptionPane.showInputDialog("Qual a sua escolaridade, M, S ou P?"));
+		for (int contador = 1; contador<11); contador++) {
+			System.out.println("escolaridade: " + escolaridade);
+			
+		}
+
+	}
+
+}
+

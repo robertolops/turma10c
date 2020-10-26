@@ -1,0 +1,15 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class OrdemCrescente {
+
+	public static void main(String[] args) {
+		//   Escreva um código que leia três valores inteiros e diferentes e mostre-os em ordem decrescente. 
+		
+		int N1 = Int.parseInt(JOptionPane.showInputDialog("Digite o primeiro número inteiro."));
+		
+
+	}
+
+}

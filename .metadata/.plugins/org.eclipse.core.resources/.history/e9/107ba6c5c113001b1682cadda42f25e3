@@ -1,0 +1,23 @@
+package br.com.concessionaria.teste;
+
+import br.com.concessionaria.modelo.Formula1;
+
+public class TesteFormula1 {
+
+	public static void main(String[] args) {
+		// criar um objeto
+		Formula1 objeto = null;
+
+		//Instanciar um objeto
+		Formula1 carro = new Formula1();
+		carro.preencherEscuderia("ferrari");
+		System.out.println(carro.retornarEscuderia());
+		
+		carro.preencherCor("amarelo");
+		System.out.println(carro.retornarCor());
+		
+		carro.preencherValor(1598);
+		System.out.println(carro.retornarValor());
+	}
+
+}// fechar classe
